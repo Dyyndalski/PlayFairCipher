@@ -1,0 +1,201 @@
+
+p.info{
+  font-family: Hubballi;
+  border: white solid;
+  border-radius: 15px;
+  padding: 8px;
+  background-color: rgba(0, 0, 0, 0.25);
+  color: black;
+  font-weight: bold;
+  text-decoration: solid;
+  font-size: 18px;
+  
+}
+
+h1{
+  font-family: Hubballi;
+  font-size: 30px;
+  text-align:center;
+}
+
+.style{
+  margin-top: 100px;
+}
+
+
+p.style{
+  margin-top: 100px;
+  float: left;
+}
+
+
+body{
+  background-color:lightgray;
+}
+
+p{
+  margin-left: 20px;
+  float: none;
+  display: inline-block;
+}
+
+div.tytul{
+  display: inline-block;
+  text-align: right;
+}
+
+input{
+  float: none;
+  margin-left: 35px;
+  width: 40vw;
+  border-radius: 5px;
+  height: 20px;
+  border: rgba(177, 31, 31, 0.445) 2px inset;
+}
+
+.textarea{
+  float: left;
+}
+
+table{
+  margin-left: 50%;
+  margin-top: auto;
+}
+
+
+table, td, tr{
+  border: 2px solid;
+  padding: 5px;
+  border-collapse: collapse;
+  position: relative;
+  background-color: rgba(223, 223, 223, 0.842);
+  font-size: 20px;
+}
+
+td{
+  
+  width: 10px;
+  height: 10px;
+  text-align: center;
+  font-family: Hubballi;
+  font-weight: bold;
+}
+
+
+
+textarea{
+  margin-top: 2vw;
+  margin-left: 18px;
+  max-width: 80vw;
+  max-height: 40vh;
+  min-height: 10vw;
+  min-width: 150px;
+  width: 40vw;
+  height: 5vw;
+  vertical-align: middle;
+  inset-block: initial;
+  border-radius: 5px;
+  border: rgba(177, 31, 31, 0.445) 2px inset;
+
+}
+
+h2{
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 0;
+  align-self: auto;
+  text-align: center;
+  margin-left: 95px;
+}
+
+#demo{
+  display: inline;
+  position: relative;
+  align-self: center;
+  cursor:pointer;
+}
+
+.codeTable{
+  width: 20px;
+  float: left;
+  inset-block: inherit;
+}
+
+.button {
+  align-items: center;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  min-height: 5rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+  margin-top: 50px;
+  
+}
+
+.button:hover,
+.button:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.button:hover {
+  transform: translateY(-1px);
+}
+
+.button:active {
+  background-color: #F0F0F1;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
+}
+
+h3 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: Hubballi;
+  font-size: 40px;
+}
+h3:after {
+  display: inline-block;
+  margin: 0 0 8px 20px;
+  height: 3px;
+  content: " ";
+  text-shadow: none;
+  background-color:rgba(0, 0, 0, 0.5);
+  width: 25vw;
+  font-family: Hubballi;
+  font-size: 20px;
+}
+h3:before {
+  display: inline-block;
+  margin: 0 20px 8px 0;
+  height: 3px;
+  content: " ";
+  text-shadow: none;
+  background-color:rgba(0, 0, 0, 0.5);
+  width: 25vw;
+  font-family: Hubballi;
+  font-size: 20px;
+}

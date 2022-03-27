@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Hubballi&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h3>SZYFR PLAYFAIR</h3>
+    <br>
+    <div>
+        <p class="info">Klucz:</p>
+        <input type="text" id="key" placeholder="Wpisz klucz..">
+    </div>
+
+    <div class="tytul">
+        <div class="textarea">
+            <p class="info">Wejście: </p>
+            <textarea name="toCode" id="data" cols="30" rows="10" placeholder="Wpisz tekst.."></textarea>
+            <div id="codeTable">
+                <h2>
+                    <button onclick="toEncryption()">Szyfruj</button>
+                    <button onclick="clearFunction()">Wyczyść</button>
+                    <button onclick="toDescryption()">Deszyfruj</button>
+                </h2>
+            </div>
+  
+        </div>
+
+
+
+        
+    </div>
+    <br>
+    <div class="tytul">
+        <p class="info">Wyjście: </p>
+        <textarea name="toCode" id="result" cols="30" rows="10" placeholder="Tutaj otrzymasz wynik.."></textarea>
+    </div>
+
+    <script src="code.js"></script>
+</body>
+
+</html>
